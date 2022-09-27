@@ -1,0 +1,610 @@
+/* Global */
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    max-width: 100vw;
+    background-color: #201a24;   
+}
+
+.hide-global{
+    display: none;
+}
+
+.top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    padding: .6rem 4rem;
+    color: white;
+    border: 3px solid white;
+}
+
+.logo{
+    width: fit-content;
+    padding: 15px 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: auto ; 
+    padding: 0 10px;
+    height: inherit;
+    min-height: inherit;
+}
+
+main .wrapper{
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.oops-main{
+    background-image: url(images/pexels-jess-bailey-designs-1162519-horizontal.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero{
+    min-height: 50px;
+    background-image: url(images/pexels-tirachard-kumtanom-450066.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero h1{
+    font-size: 5.8rem;
+    margin: 80px 20px 40px;
+}
+
+.hero p{
+    font-size: 4rem;
+    font-family: 'Oooh Baby', cursive, sans-serif;
+    /* padding-bottom: 60px; */
+}
+
+.hero .links{
+    margin: 60px 0;
+}
+
+.hero a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px 30px;
+    padding: 10px 50px;
+    border: 3px solid #201a24;
+}
+
+.outline{
+    color: #201a24;
+}
+
+.filled{
+    color: #FFFFFF;
+    background-color: #201a24;
+}
+
+.services{
+    background-color: #FAEFEE;
+}
+.services .wrapper{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.servinfo{
+    font-size: 1.1rem;
+    display: inline-block;
+    min-height: 200px;
+    margin: 20px;
+    width: 50%;
+    font-family: inherit;
+    line-height: 25px;
+}
+
+.servinfo h2{
+    font-size: 3rem;
+    color: #3663A7;
+    font-family: "Oooh Baby", cursive, sans-serif;
+    margin: 20px 0; 
+     margin: 35px auto; 
+}
+
+.servinfo p{
+    font-size: 1.15rem;
+    line-height: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.border{
+    border-right: 2px solid #F0D1CE;
+}
+
+.service_types{
+    margin: 0 auto;
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.service_types div{
+    width: 24%;
+    height: 320px;
+    overflow: hidden;
+    background-size: cover;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.service_types p{
+    display: inline;
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 4rem;
+    margin: 0 20px;
+}
+
+#businessblock{
+    background-image: url(images/pexels-amina-filkins-5409659-dark.jpg);
+    background-position: center;
+}
+
+#personalblock{
+    background-image: url(images/pexels-karley-saagi-4068072-dark.jpg);
+}
+
+#uxblock{
+    background-image: url(images/pexels-mentatdgt-937541-dark.jpg);
+    background-position: center;
+}
+
+#layoutblock{
+    background-image: url(images/pexels-picjumbocom-196644-dark.jpg);
+    background-position: top right;
+}
+
+#templateblock{
+    background-image: url(images/pexels-kaboompics-com-6372-dark.jpg);
+    background-position: center bottom;
+}
+
+#customblock{
+    background-image: url(images/pexels-brett-sayles-4504748-dark.jpg);
+    background-position: bottom left;
+}
+
+#cmsblock{
+    background-image: url(images/pexels-cottonbro-5082238-dark.jpg);
+
+}
+
+#ctcblock{
+    background-image: url(images/pexels-pixabay-356043-dark.jpg);
+    background-position: center;
+}
+
+.portfolio{
+    background: url(images/pexels-steve-johnson-1234853.jpg);
+    background-position: center;
+    background-size: cover;
+
+    /* background-repeat: no-repeat; */
+}
+
+.portfolio .wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.top_hof{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px;
+}
+
+.top_hof h2{
+    font-family: 'Oooh Baby';
+    color: #201A24;
+    font-size: 4rem;
+    padding-left: 60px;
+}
+
+.top_hof a{
+    color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 3px solid #000000;
+    margin-right: 60px;
+    transition: .15s;
+}
+
+.top_hof a:hover{
+    background-color: #000000;
+    color: white;
+}
+
+.bottom_hof{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.example_site{
+    padding: 225px 0;
+    width: 25%;
+    background-color: #ffffffbc;
+    color: #201a24;
+    border: 3px solid #201A24;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+.about{
+    background-color: #FAEFEE;
+    min-height: fit-content;
+}
+
+.about .wrapper{
+    display: block;
+    background-color: rgba(255, 255, 255);
+}
+
+.about h2{
+    font-family: 'Oooh Baby', cursive, sans-serif;
+    font-size: 4rem;
+    color: #3663A7;
+    padding: 50px;
+}
+
+.horizontal{
+    display: flex;
+    padding: 0 50px 25px;
+}
+
+.about_left{
+    flex: 2;
+}
+
+.about_left p{
+    font-size: 1.15rem;
+    line-height: 30px;
+    padding-right: 100px;
+    margin-bottom: 30px;
+}
+
+.about_right{
+    flex: 1;
+    height: fit-content;
+    
+}
+
+.about_right img{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    /* box-sizing: border-box; */
+    border: 10px solid #C5E6DF;
+
+}
+
+.contact_home{
+    background: url(images/pexels-scott-webb-305827.jpg);
+    background-position: center;
+    background-size: cover;
+    /* height: 300px; */
+}
+
+.contact_home .wrapper{
+    background-color: #ffffffbc;
+    text-align: center;
+}
+
+.contact_main{
+    font-family: 'Nuito', sans-serif;
+    font-size: 1.15rem;
+}
+
+.contact_main h2{
+    font-family: "Oooh Baby", cursive, sans-serif;
+    font-size: 4rem;
+    margin: 50px 200px;
+}
+
+.contact_main h2+p{
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.contact_main a{
+    display: inline-block;
+    color: #201a24;
+    font-size: 1.8rem;
+    margin-bottom: 50px;
+}
+
+
+label{
+    font-size: 1.2rem;
+    display: block;
+    text-align: left;
+    margin: 20px 0 5px;
+}
+input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: .3rem;
+}
+
+textarea{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-color: black;
+    border-radius: .3rem;
+}
+
+input[type="submit"]{
+    color: #FFFFFF;
+    background-color: #201a24;
+    border: none;
+    margin-bottom: 50px;
+    
+}
+
+footer .wrapper{
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+#footer_top{
+    display: flex;
+    flex-direction: row;
+}
+
+#footer_bottom{
+    margin: 0 auto;
+}
+
+
+
+footer a{
+    color: #201A24;
+    font-size: .8rem;
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+.pink_box{
+    max-width: 1366px;
+    margin: auto;
+    height: fit-content;
+    background-color: rgba(239, 207, 204, 0.7);
+    padding: 100px 0;
+}
+
+.white_box{
+    text-align: center;
+    height: fit-content;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white_box h1{
+    text-transform: uppercase;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 7rem;
+    margin: 50px 0;
+}
+
+.white_box .first{
+    font-size: 3rem;
+    margin: 50px 0;
+}
+.white_box .second{
+    font-size: 1.5rem;
+    margin: 0px 0 30px;
+}
+
+.white_box a{
+    /* text-decoration: none; */
+    font-size: 1.5rem;
+    color: #3663A7;
+    margin-bottom: 75px;
+}
+
+.white_box img{
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (max-width:865px){
+    
+    .hero h1{
+        font-size: 4rem;
+        margin: 60px 20px 10px;
+    }
+
+    .hero p{
+        font-size: 3.2rem;
+    }
+
+    .hero .links{
+
+        padding: 0px 20px;
+        margin: 30px;
+    }
+
+    .hero a{
+        font-size: 1.3rem;
+        margin: 30px 10px 10px;
+    }
+
+    .servinfo h2{
+        font-size: 2.2rem;
+        color: #3663A7;
+        font-family: "Oooh Baby", cursive, sans-serif;
+        /* margin: 10px 0; */
+        margin: 25px auto;
+
+        line-height: 40px;
+    }
+    
+    .servinfo p{
+        font-size: 1rem;
+        line-height: 25px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    nav a{
+        /* font-size: 1rem; */
+        padding: .4rem .8rem;
+    }
+
+    .white_box h1{
+        font-size: 5rem;
+    }
+
+    .white_box .first{
+        font-size: 2.3rem;
+        margin: 10px 0;
+    }
+
+    .white_box .second{
+        font-size: 1rem;
+        margin: 10px 0 80px;
+    }
+
+    .white_box img{
+        max-width: 70%;
+        margin: 50px auto;
+    }
+
+    .white_box{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width:600px){
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: auto;
+    }
+    .hide-mobile{
+        display: none;
+    }
+     .hide-global{
+         display: block;
+     }
+     .mobile-nav{
+         display: flex;
+         flex-direction: column;
+         width: 100vw;
+     }
+
+     .mobile-nav a{
+         text-align: center;
+         margin: 0;
+         border-width: 2px 0 0 0;
+         border-color: white;
+         border-style: solid;
+     }
+
+
+
+     .white_box .first{
+        font-size: 2rem;
+        margin: 10px 0 20px;
+    }
+
+    .white_box .second{
+        font-size: .9rem;
+        margin: 10px 0 30px;
+    }
+
+    .white_box a{
+        font-size: 1.2rem;
+    }
+
+     .white_box img{
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .white_box h1{
+        font-size: 3.5rem;
+    }
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="#">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Oooh+Baby&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS Reset - Eric Meyer.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Elizabeth Sloan - Oops</title>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="wrapper">
+                <a class="logo" href="index.html"><img src="images/S_logo.svg"
+                        alt="Sloan Web Designs Logo. Circle with swooshy S through the middle."></a>
+
+                <nav class="top_nav hide-mobile">
+                    <a id="services" href="#">Services</a>
+                    <a id="contact" href="#">Contact</a>
+                    <a id="about" href="#">About</a>
+                </nav>
+                <nav class="top-nav hide-global">
+                    <div class="mobile-nav">
+                        <a id="services-mobile" href="#">Services</a>
+                        <a id="contact-mobile" href="#">Contact</a>
+                        <a id="about-mobile" href="#">About</a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <main class="oops-main">
+            <div class="pink_box">
+                <div class="white_box wrapper">
+                    <h1>Oops!</h1>
+                    <img src="images/Component3.svg"
+                        alt="icon image of cartoon person with blue hat, glasses, light blue shirt, black pants, typing at a grey computer with Sloan Web Designs logo on it. tika tika tika tika tika">
+                    <p class="first">This Page Isn't Ready Yet!</p>
+                    <p class="second">Come back later to see what we've done &colon;&#41;</p>
+                    <a class="go-home" href="index.html">Go Home</a>
+                </div>
+
+            </div>
+        </main>
+
+        <script>
+            function comingSoon(change) {
+                change.innerHTML = "Coming Soon";
+                change.style.backgroundColor = "white"
+                change.style.color = "#201a24"
+            }
+
+            function backToText(change, text) {
+                change.innerHTML = text;
+                change.style.backgroundColor = "#201a24"
+                change.style.color = "white"
+
+            }
+
+
+            let services = document.getElementById('services');
+            let contact = document.getElementById('contact');
+            let about = document.getElementById('about');
+
+            services.onmouseover = function () {
+                comingSoon(services);
+            }
+            services.onmouseout = function () {
+                backToText(services, "Services");
+            }
+
+            contact.onmouseover = function () {
+                comingSoon(contact);
+            }
+            contact.onmouseout = function () {
+                backToText(contact, "Contact")
+            }
+
+            about.onmouseover = function () {
+                comingSoon(about);
+            }
+            about.onmouseout = function () {
+                backToText(about, "About");
+            }
+
+            let servicesMobile = document.getElementById('services-mobile');
+            let contactMobile = document.getElementById('contact-mobile');
+            let aboutMobile = document.getElementById('about-mobile');
+
+            servicesMobile.onmouseover = function () {
+                comingSoon(servicesMobile);
+            }
+            servicesMobile.onmouseout = function () {
+                backToText(servicesMobile, "Services");
+            }
+
+            contactMobile.onmouseover = function () {
+                comingSoon(contactMobile);
+            }
+            contactMobile.onmouseout = function () {
+                backToText(contactMobile, "Contact")
+            }
+
+            aboutMobile.onmouseover = function () {
+                comingSoon(aboutMobile);
+            }
+            aboutMobile.onmouseout = function () {
+                backToText(aboutMobile, "About");
+            }
+
+        </script>
+
+    </body>
+
+</html>

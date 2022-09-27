@@ -1,0 +1,483 @@
+/* Global */
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+body{
+    background-color: #FAEFEE;
+}
+header{
+    max-width: 100vw;
+    background-color: #201a24;   
+}
+
+.hide-global{
+    display: none;
+}
+
+.top_nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1.7rem;
+    margin-left: 1rem;
+    padding: .6rem 4rem;
+    color: white;
+    border: 3px solid white;
+}
+
+.logo{
+    width: fit-content;
+    padding: 15px 10px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: auto ; 
+    padding: 0 10px;
+    height: inherit;
+    min-height: inherit;
+}
+
+main .wrapper{
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+    /* background-color: rgba(172, 86, 25, 0.582); */
+}
+
+.oops-main{
+    background-image: url(images/pexels-jess-bailey-designs-1162519-horizontal.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.hero{
+    min-height: 50px;
+    background-image: url(images/pexels-tirachard-kumtanom-450066.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero .wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.hero h1{
+    font-size: 5.8rem;
+    margin: 80px 20px 40px;
+}
+
+.hero p{
+    font-size: 4rem;
+    font-family: 'Oooh Baby', cursive, sans-serif;
+    /* padding-bottom: 60px; */
+}
+
+.hero .links{
+    margin: 60px 0;
+}
+
+.hero a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 10px 30px;
+    padding: 10px 50px;
+    border: 3px solid #201a24;
+}
+
+.outline{
+    color: #201a24;
+}
+
+.filled{
+    color: #FFFFFF;
+    background-color: #201a24;
+}
+
+.services{
+    /* height: 100px; */
+    background-color: #FAEFEE;
+}
+.services .wrapper{
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+}
+
+.servinfo{
+    font-size: 1.1rem;
+    display: inline-block;
+    min-height: 200px;
+    margin: 20px;
+    /* padding: 0 20px; */
+    width: 50%;
+    font-family: inherit;
+    line-height: 25px;
+}
+
+.servinfo h2{
+    font-size: 3rem;
+    color: #3663A7;
+    font-family: "Oooh Baby", cursive, sans-serif;
+    margin: 20px 0;
+    margin: 35px auto;
+}
+
+.servinfo p{
+    font-size: 1.15rem;
+    line-height: 30px;
+    padding-right: 30px;
+    margin-bottom: 30px;
+}
+
+.border{
+    border-right: 2px solid #F0D1CE;
+}
+
+.service_types{
+    margin: 0 auto;
+    /* padding-bottom: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+
+.service_types div{
+    width: 24%;
+    height: 320px;
+    overflow: hidden;
+    background-size: cover;
+    border: 5px solid black;
+    display: flex;
+    align-items: center;
+}
+
+.service_types p{
+    display: inline;
+    color: white;
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 4rem;
+    margin: 0 20px;
+}
+
+#businessblock{
+    background-image: url(images/pexels-amina-filkins-5409659-dark.jpg);
+    background-position: center;
+}
+
+#personalblock{
+    background-image: url(images/pexels-karley-saagi-4068072-dark.jpg);
+}
+
+#uxblock{
+    background-image: url(images/pexels-mentatdgt-937541-dark.jpg);
+    background-position: center;
+}
+
+#layoutblock{
+    background-image: url(images/pexels-picjumbocom-196644-dark.jpg);
+    background-position: top right;
+}
+
+#templateblock{
+    background-image: url(images/pexels-kaboompics-com-6372-dark.jpg);
+    background-position: center bottom;
+}
+
+#customblock{
+    background-image: url(images/pexels-brett-sayles-4504748-dark.jpg);
+    background-position: bottom left;
+}
+
+#cmsblock{
+    background-image: url(images/pexels-cottonbro-5082238-dark.jpg);
+
+}
+
+#ctcblock{
+    background-image: url(images/pexels-pixabay-356043-dark.jpg);
+    background-position: center;
+}
+
+.portfolio{
+    background: url(images/pexels-steve-johnson-1234853.jpg);
+    background-position: center;
+    background-size: cover;
+
+    /* background-repeat: no-repeat; */
+}
+
+.portfolio .wrapper{
+    background-color: rgba(255, 255, 255, 0.6);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.top_hof{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 50px;
+}
+
+.top_hof h2{
+    font-family: 'Oooh Baby';
+    color: #201A24;
+    font-size: 4rem;
+    padding-left: 60px;
+}
+
+.top_hof a{
+    color: #173f7a;
+    /* background-color: #; */
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 5px 20px;
+    text-decoration: none;
+    border: 2px solid #173f7a;
+    margin-right: 60px;
+    transition: .15s;
+}
+
+.top_hof a:hover{
+    background-color: #173f7a;
+    color: white;
+}
+
+.bottom_hof{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.example_site{
+    padding: 150px 0;
+    width: 25%;
+    background-color: #ffffffbc;
+    color: #201a24;
+    border: 3px solid #201A24;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4rem;
+}
+
+.about{
+    height: 100px;
+    background-color: #FAEFEE;
+}
+
+.contact{
+    height: 100px;
+    background-color: seagreen;
+}
+
+.pink_box{
+    max-width: 1366px;
+    margin: auto;
+    height: fit-content;
+    background-color: hsla(5, 53%, 87%, 0.7);
+    padding: 100px 0;
+}
+
+.white_box{
+    text-align: center;
+    height: fit-content;
+    width: 80%;
+    background-color: hsla(0, 0%, 100%, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.white_box h1{
+    text-transform: uppercase;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 7rem;
+    margin: 50px 0;
+}
+
+.white_box .first{
+    font-size: 3rem;
+    margin: 50px 0;
+}
+.white_box .second{
+    font-size: 1.5rem;
+    margin: 0px 0 30px;
+}
+
+.white_box a{
+    /* text-decoration: none; */
+    font-size: 1.5rem;
+    color: #3663A7;
+    margin-bottom: 75px;
+}
+
+.white_box img{
+    max-width: 50%;
+    margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet */
+@media (max-width:865px){
+    
+    .hero h1{
+        font-size: 4rem;
+        margin: 60px 20px 10px;
+    }
+
+    .hero p{
+        font-size: 3.2rem;
+    }
+
+    .hero .links{
+
+        padding: 0px 20px;
+        margin: 30px;
+    }
+
+    .hero a{
+        font-size: 1.3rem;
+        margin: 30px 10px 10px;
+    }
+
+    .servinfo h2{
+        font-size: 2.2rem;
+        color: #3663A7;
+        font-family: "Oooh Baby", cursive, sans-serif;
+        /* margin: 10px 0; */
+        margin: 25px auto;
+
+        line-height: 40px;
+    }
+    
+    .servinfo p{
+        font-size: 1rem;
+        line-height: 25px;
+        padding-right: 30px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+    
+    nav a{
+        /* font-size: 1rem; */
+        padding: .4rem .8rem;
+    }
+
+    .white_box h1{
+        font-size: 5rem;
+    }
+
+    .white_box .first{
+        font-size: 2.3rem;
+        margin: 10px 0;
+    }
+
+    .white_box .second{
+        font-size: 1rem;
+        margin: 10px 0 80px;
+    }
+
+    .white_box img{
+        max-width: 70%;
+        margin: 50px auto;
+    }
+
+    .white_box{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+/* Mobile */
+@media (max-width:600px){
+
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: auto;
+    }
+    .hide-mobile{
+        display: none;
+    }
+     .hide-global{
+         display: block;
+     }
+     .mobile-nav{
+         display: flex;
+         flex-direction: column;
+         width: 100vw;
+     }
+
+     .mobile-nav a{
+         text-align: center;
+         margin: 0;
+         border-width: 2px 0 0 0;
+         border-color: white;
+         border-style: solid;
+     }
+
+
+
+     .white_box .first{
+        font-size: 2rem;
+        margin: 10px 0 20px;
+    }
+
+    .white_box .second{
+        font-size: .9rem;
+        margin: 10px 0 30px;
+    }
+
+    .white_box a{
+        font-size: 1.2rem;
+    }
+
+     .white_box img{
+        max-width: 80%;
+        margin: 50px auto;
+    }
+
+    .white_box h1{
+        font-size: 3.5rem;
+    }
+}
